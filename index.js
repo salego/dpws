@@ -5,8 +5,8 @@ const multer = require('multer');
 
 //***** Setup Express App, App Engine,  *****
 const app = express();
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 4141,
-    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '192.168.1.8';
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 app.set('view engine', 'ejs');      // set 'ejs' as view engine
 app.use(express.static('public'));  // set 'public' folder as static folder
 
