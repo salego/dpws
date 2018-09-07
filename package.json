@@ -2,8 +2,13 @@
   "name": "NodeServer",
   "version": "1.0.0",
   "description": "",
+
   "main": "index.js",
-  "dependencies": {
+  
+"scripts": {
+	"strat":"node index.js"
+}
+"dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
@@ -21,7 +26,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
+  
+"bugs": {
     "url": "https://github.com/salego/dpws/issues"
   },
   "homepage": "https://github.com/salego/dpws#readme"
