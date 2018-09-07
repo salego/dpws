@@ -1,0 +1,43 @@
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 1.15em;
+  padding: 1em 2em;
+  background: #f5ab35;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eb950c), color-stop(1, #f5ab35));
+  background: -ms-linear-gradient(bottom, #eb950c, #f5ab35);
+  background: -moz-linear-gradient(center bottom, #eb950c 0%, #f5ab35 100%);
+  background: -o-linear-gradient(#f5ab35, #eb950c);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5ab35', endColorstr='#eb950c', GradientType=0);
+  border: 1px solid;
+  border-color: #dd8c0b #d3860a #c47c0a #d3860a;
+  color: #ffffff !important;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.065);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a .sow-icon-image,
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a [class^="sow-icon-"] {
+  margin: -0.1em 0.75em -0.2em -0.75em;
+}
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a:visited,
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a:active,
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a:hover {
+  color: #ffffff !important;
+}
+.so-widget-sow-button-atom-b2fa988de93d .ow-button-base a.ow-button-hover:hover {
+  background: #f5af3f;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f39b0e), color-stop(1, #f5af3f));
+  background: -ms-linear-gradient(bottom, #f39b0e, #f5af3f);
+  background: -moz-linear-gradient(center bottom, #f39b0e 0%, #f5af3f 100%);
+  background: -o-linear-gradient(#f5af3f, #f39b0e);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5af3f', endColorstr='#f39b0e', GradientType=0);
+  border-color: #e6920b #dd8c0b #ce830a #dd8c0b;
+  color: #ffffff;
+}

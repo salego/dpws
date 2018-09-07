@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="../css/smartphoto.min.css">
+	<title>SmartPhoto.js</title>
+	<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<h1 class="title">SmartPhoto.js</h1>
+		<div class="masonry">
+		</div>
+	</div>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/smartphoto.js?v=1"></script>
+	<script>
+	$(document).ready(function(){
+
+		
+		$.get(("./11/"),function(fileName){
+			console.log('File Name: ',fileName);
+			var newBrick = $("<div>");
+				newBrick.attr('class','brick');
+			var newAnchorEle = $("<a>");
+				newAnchorEle.attr('href',"./11/"+fileName);
+				newAnchorEle.attr('class',"js-img-viwer");
+				newAnchorEle.attr('data-caption',fileName);
+				newAnchorEle.attr('data-id',fileName);
+		
+			var newImgEle = $("<img>");
+			newImgEle.attr('src',"./11/"+fileName);
+			newImgEle.attr('width','360');
+			newAnchorEle.append(newImgEle);
+			newBrick.append(newAnchorEle);
+			$('.masonry').append(newBrick);
+			console.log("newBrick....: ", newBrick);
+		});
+	
+		new SmartPhoto(".js-img-viwer", {
+			showAnimation: false
+		});	
+	});
+	</script>
+</body>
+</html>

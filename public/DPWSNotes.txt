@@ -1,0 +1,5 @@
+inde vanilla slides.html
+	|
+	| - event_slider_2.js
+	| - event_slider_2.css
+	|- images from 2017/events/
